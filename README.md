@@ -25,7 +25,7 @@ Changes:
 ## Bill of Materials
 |Reference|Value|Footprint|Qty|
 |-----|-----|-----|-----|
-|C1,C2|100nF|0805|3|
+|C1,C2|100nF|0805|2|
 |C8,C9|10uF|1206|2|
 |F1|MF-NSMF012-2| 1206 Bourns MF-NSMF012-2 0.12A 30V|1|
 |J1|Raspberry_Pi_4| PinHeader_2x20_P2.54mm_Vertical |1|
@@ -46,7 +46,7 @@ Optional (SCART 5V->12V Converter for Status & Aspect Ratio switch):
 
 |Reference|Value|Footprint|Qty|
 |-----|-----|-----|-----|
-|C5|100nF|0805|3|
+|C5|100nF|0805|1|
 |C3,C4|220nF|0805|2|
 |C6,C7|4.7uF|Tantalum EIA-3528-21 / Kemet-B|2|
 |U1|ST662A|SO-8_3.9x4.9mm_P1.27mm|1|
