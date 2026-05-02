@@ -2,7 +2,7 @@
 
 Improved [RGB-Pi adapter](https://www.rgb-pi.com) for use with RGB-Pi OS.
 
-Based on [open schematic publised by mortaca](https://github.com/mortaca/RGB-Pi).
+Based on [open schematic published by mortaca](https://github.com/mortaca/RGB-Pi).
 
 Original RGB-Pi documentation: [www.mortaca.com/docs/wiki](https://www.mortaca.com/docs/wiki/index.php?title=RGB-Pi)
 
