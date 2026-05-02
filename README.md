@@ -20,7 +20,7 @@ Changes:
 ![Back](images/pcb_back.png)
 ![Front preview](images/pcb_front_preview.png)
 ![Back preview](images/pcb_back_preview.png)
-![PCB dimensions](pcb_dimensions.png)
+![PCB dimensions](images/pcb_dimensions.png)
 
 ## Bill of Materials
 |Reference|Value|Footprint|Qty|
