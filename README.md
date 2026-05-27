@@ -26,7 +26,7 @@ Changes:
 |Reference|Value|Footprint|Qty|
 |-----|-----|-----|-----|
 |C1,C2|100nF|0805|2|
-|C8,C9|10uF|1206|2|
+|C8,C9|10uF|0805|2|
 |F1|MF-NSMF012-2| 1206 Bourns MF-NSMF012-2 0.12A 30V|1|
 |J1|Raspberry_Pi_4| PinHeader_2x20_P2.54mm_Vertical |1|
 |J2|SCART-F|CS-102 (SCART-21S)|1|
