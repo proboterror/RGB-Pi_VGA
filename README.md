@@ -10,6 +10,7 @@ Changes:
 - Added VGA (DSUB-15) 15 kHz connector (Warning: 31 kHz VGA monitors not supported). 
 - Proper sync combiner, borrowed from from [BKM-129X clone board](https://github.com/skumlos/bkm-129x-scart-vga), see also [KabukiFlux's RGBpi cable sync mixer](https://github.com/KabukiFlux/pi-rgb-cable-sync-mixer).
 - Improved R-2R RGB DAC.
+- PWM audio buffered with [SN74LVC2G34 Dual Buffer Gate](<datasheets/SN74LVC2G34 Dual Buffer Gate.pdf>) powered from [PS7A2033 Ultra-Low-Noise LDO](<datasheets/TPS7A20 300-mA, Ultra-Low-Noise, Low-IQ, High PSRR LDO.pdf>), with separate analog ground, in order to reduce Raspberry Pi internal power noise.
 - Added 3.5 mm audio jack connector.
 
 ## Schematics:<br>
@@ -27,6 +28,8 @@ Changes:
 |-----|-----|-----|-----|
 |C1,C2|100nF|0805|2|
 |C8,C9|10uF|0805|2|
+|U2|SN74LVC2G34DBVR|SOT-23-6|1|
+|U3|TPS7A2033PDBVR|SOT-23-5|1|
 |F1|MF-NSMF012-2| 1206 Bourns MF-NSMF012-2 0.12A 30V|1|
 |J1|Raspberry_Pi_4| PinHeader_2x20_P2.54mm_Vertical |1|
 |J2|SCART-F|CS-102 (SCART-21S)|1|
@@ -34,7 +37,7 @@ Changes:
 |J4|SJ1-3535NG|CUI/Same Sky Device SJ1-3535NG|1|
 |Q1|MMBT3904|SOT-23|1|
 |R1|120R|0805|1|
-|R2,R3|220R|0805|2|
+|R2,R3|1K|0805|2|
 |R6|100R|0805|1|
 |R7|10K|0805|1|
 |R8|1K|0805|1|
